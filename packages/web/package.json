@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "appui": "*",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "shared": "*",
+    "styled-components": "^6.0.8",
+    "theme": "*"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
