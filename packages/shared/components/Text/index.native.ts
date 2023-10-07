@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Text } from "react-native";
+import { Text as RNText } from "react-native";
 
-export default styled(Text)`
+export const Text = styled(RNText)`
   font-size: 16px;
 `;

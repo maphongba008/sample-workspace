@@ -3,11 +3,11 @@ import styled from "styled-components";
 import { Image as Img } from "react-native";
 import { ImageProps } from "./props";
 
-const Image = styled(Img)``;
+const RNImage = styled(Img)``;
 
-export default (props: ImageProps) => {
+export const Image = (props: ImageProps) => {
   return (
-    <Image
+    <RNImage
       style={props.style}
       source={{
         uri: props.src,

@@ -1,30 +1,61 @@
 import React from "react";
 
-import Text from "shared/components/Text";
-import Box from "shared/components/Box";
-import Image from "shared/components/Image";
+import {
+  Box,
+  Text,
+  // Image,
+  // Icon,
+  Avatar,
+  // ButtonBase,
+  // IconButton,
+} from "shared/components";
 
 import styled from "styled-components";
 
-const Avatar = styled(Image)`
-  width: 100px;
-  height: 100px;
-`;
+// const StyledAvatar = styled(Avatar)`
+//   margin-top: 20px;
+// `;
 
 export default () => {
   return (
     <Box
       style={{
-        width: "100%",
-        height: "100%",
-        backgroundColor: "red",
+        flex: 1,
         alignItems: "center",
         justifyContent: "center",
       }}
     >
       <Text>Hello world</Text>
       <Text>Hello world</Text>
-      <Avatar src="https://file-examples.com/storage/feaade38c1651bd01984236/2017/10/file_example_PNG_500kB.png" />
+
+      {/* 
+      <StyledAvatar
+        type="square"
+        name="Joh"
+        src="https://file-examples.com/storage/feaade38c1651bd01984236/2017/10/file_example_PNG_500kB.png"
+      />
+      <ButtonBase onPress={() => alert("something")}>
+        <Text>Click me please</Text>
+      </ButtonBase>
+      {[
+        "camera",
+        "contact",
+        "haivmind",
+        "home",
+        "imessage",
+        "notification",
+        "play",
+        "record",
+        "setting",
+        "whatsapp",
+      ].map((icon) => (
+        <IconButton
+          size={40}
+          color="yellow"
+          icon={icon}
+          onPress={() => alert(icon)}
+        />
+      ))} */}
     </Box>
   );
 };

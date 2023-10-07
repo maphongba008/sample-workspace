@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-const Box = styled.div`
+export const Box = styled.div`
   display: flex;
   flex-direction: column;
+  position: relative;
 `;
-
-export default Box;

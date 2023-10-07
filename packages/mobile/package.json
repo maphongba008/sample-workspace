@@ -13,6 +13,7 @@
     "appui": "*",
     "react": "18.2.0",
     "react-native": "0.72.5",
+    "react-native-svg": "^13.14.0",
     "shared": "*",
     "styled-components": "^6.0.8",
     "theme": "*"
