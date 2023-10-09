@@ -3,18 +3,17 @@ import React from "react";
 import {
   Box,
   Text,
-  // Image,
-  // Icon,
+  Icon,
   Avatar,
-  // ButtonBase,
-  // IconButton,
+  ButtonBase,
+  IconButton,
 } from "shared/components";
 
 import styled from "styled-components";
 
-// const StyledAvatar = styled(Avatar)`
-//   margin-top: 20px;
-// `;
+const StyledAvatar = styled(Avatar)`
+  margin-top: 20px;
+`;
 
 export default () => {
   return (
@@ -27,8 +26,6 @@ export default () => {
     >
       <Text>Hello world</Text>
       <Text>Hello world</Text>
-
-      {/* 
       <StyledAvatar
         type="square"
         name="Joh"
@@ -53,9 +50,10 @@ export default () => {
           size={40}
           color="yellow"
           icon={icon}
+          key={icon}
           onPress={() => alert(icon)}
         />
-      ))} */}
+      ))}
     </Box>
   );
 };

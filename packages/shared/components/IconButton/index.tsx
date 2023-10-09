@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonBase } from "../ButtonBase/index.native";
+import { ButtonBase } from "../ButtonBase";
 import { ButtonBaseProps } from "../ButtonBase/props";
 import { IconProps, Icon } from "../Icon";
 

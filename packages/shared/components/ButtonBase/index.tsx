@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { ButtonBaseProps } from "./props";
+import React from "react";
 
 const Button = styled.div`
   cursor: pointer;
